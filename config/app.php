@@ -163,7 +163,7 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
-        /*
+        /*w
          * Package Service Providers...
          */
         Laravel\Tinker\TinkerServiceProvider::class,
@@ -177,7 +177,10 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-    ],
+		Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        Spatie\Backup\BackupServiceProvider::class,
+
+	],
 
     /*
     |--------------------------------------------------------------------------
